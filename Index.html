@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David Stephen</title>
+
+<style>
+
+body{
+margin:0;
+background:black;
+color:white;
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+nav{
+padding:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+letter-spacing:2px;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background-image:url("background.png");
+background-size:cover;
+background-position:center;
+position:relative;
+}
+
+.hero::after{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.75);
+top:0;
+left:0;
+}
+
+.content{
+position:relative;
+z-index:2;
+}
+
+h1{
+font-size:90px;
+margin:0;
+letter-spacing:6px;
+}
+
+.subtitle{
+font-size:22px;
+color:#ccc;
+margin:20px 0 40px 0;
+}
+
+.button{
+padding:15px 50px;
+border:1px solid white;
+text-decoration:none;
+color:white;
+letter-spacing:3px;
+transition:0.3s;
+}
+
+.button:hover{
+background:white;
+color:black;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="comingsoon.html">Music</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="hero">
+
+<div class="content">
+
+<h1>DAVID STEPHEN</h1>
+
+<div class="subtitle">
+THE NEXT GENERATION OF POP
+</div>
+
+<a class="button" href="comingsoon.html">
+ENTER
+</a>
+
+</div>
+
+</section>
+
+</body>
+</html>
